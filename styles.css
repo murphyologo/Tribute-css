@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bree+Serif&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Freeman&family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Lobster&family=Niconne&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;    
+    background-color: rgb(197, 194, 194);
+    height: 400vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #262222;
+}
+.nav nav ul li a{
+    text-decoration: none;
+    color: antiquewhite; 
+}
+.nav ul{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(216, 212, 207);
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.nav ul li{
+    display: inline-block;
+    padding-right: 13.5px;
+    padding-left: 13.5px;
+}
+
+.main-con{
+    height: 370vh;
+    width: 100%;
+    align-items: center;
+
+}
+.main-con div{
+    background-image: url("svg.png");
+    height: 370vh;
+    margin: 10px 240px 50px 240px;
+    /* max-width: 1000px; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
+.main-con .index{
+    /* padding: 0px 60px 0px 60px; */
+    text-align: center;
+    font-size: 15px;
+    padding: 60px 90px 60px 90px;
+    text-align: justify;
+    font-weight: 350;
+}
+.main-con .index .olo{
+    text-align: center;
+    line-height: 20px;
+}
+.main-con .index #head{
+    font-size: 2.0rem;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.main-con .index .one{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.main-con .index .two{
+    text-align: center;
+    font-weight: 700;
+
+}
+.main-con .index .four{
+    font-weight: bold;
+    color: rgb(182, 177, 177);
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 100px;
+    
+}
+.main-con .index .three{
+    text-align: center;
+    font-size: smaller;
+    font-weight: 600;
+}
+.main-con .index hr{
+    border-bottom-style: none;
+    /* border-top-width: 1px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+.main-con .index p a{
+    text-decoration: none;
+}
